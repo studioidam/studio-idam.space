@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --color-navy-900: #1a2942;
+    --color-terracotta: #E07A5F;
+  }
+
+  .font-serif {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+.bg-navy-900 {
+  background-color: var(--color-navy-900);
+}
+
+.text-navy-900 {
+  color: var(--color-navy-900);
+}
+
+.bg-terracotta {
+  background-color: var(--color-terracotta);
+}
+
+.text-terracotta {
+  color: var(--color-terracotta);
+}
